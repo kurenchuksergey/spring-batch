@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  batch:
+    job:
+      enabled: false
+    initialize-schema: always
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:postgresql://localhost/batchExample
+    username: username
+    password: password
+
